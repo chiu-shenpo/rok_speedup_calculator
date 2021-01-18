@@ -25,6 +25,7 @@ GetOptions(
         "eighthour=i" =>\$eighthour,
         "fifhour=i" =>\$fifhour,
         "twenty4hour=i" =>\$twenty4hour,
+        "threeday=i" =>\$threeday,
         "sevenday=i" =>\$sevenday,
         "thirtyday=i" =>\$thirtyday
         );
