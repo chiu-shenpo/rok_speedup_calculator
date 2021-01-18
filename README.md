@@ -31,4 +31,4 @@ Options:(default:0)
 
 -thirtyday:thirty days
   
- Usage:rok_calculate.pl -one 18653 -five 7302 -ten 252 -fifteen 914 -thirty 1481 -sixty 2723 -threehour 733 -eighthour 120 -$fifhour 21 -$twenty4hour 10 -$threeday 1 -$sevenday 2
+ Usage:rok_calculate.pl -one 18653 -five 7302 -ten 252 -fifteen 914 -thirty 1481 -sixty 2723 -threehour 733 -eighthour 120 -fifhour 21 -twenty4hour 10 -threeday 1 -sevenday 2
