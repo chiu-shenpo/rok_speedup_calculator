@@ -34,6 +34,12 @@ GetOptions(
         my $hour_dot = ($result-$day)*24;
         my ($hour) = $hour_dot=~/(\d+)/;
         my $min = ($hour_dot-$hour)*60;
-        print "$day days "."$hour hours ";
-        printf "%.0f", $min;
-        print" mins";
+        my $rmin = sprintf("%.0f", $min);
+        if($rmin == 60){
+                my $hours=$hour+1;
+                my $rmins=$rmin-60;
+                print "$day days "."$hours hours "."$rmins mins\n";
+        }else{
+                print "$day days "."$hour hours "."$rmin mins\n";
+        }
+
